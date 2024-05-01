@@ -1,0 +1,13 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    color: #fff; /* Default text color: white */
+    background-color: #222; /* Default background color: dark */
+  }
+
+  @media (prefers-color-scheme: light) {
+    body {
+      color: #000; /* Text color for light mode: black */
+      background-color: #eee; /* Background color for light mode: light grey */
+    }
+  }
